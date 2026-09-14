@@ -20,11 +20,11 @@ export const HOOK = "0x75A54357D9C78a2Db19004a5FDc76c50F9242AEC";
 export const POOL_MANAGER = "0x8366a39CC670B4001A1121B8F6A443A643e40951";
 export const FACTORY = "0x5bd1Fbe78a78fe8236fa00CF48fbEBA74ae34661";
 
-/** Empty until launch. Never show a fake CA. */
+/** Empty until the token launches. Never show a fake CA. */
 export const TOKEN_CA: string = "";
-export const VAULT_CA: string = "";
+export const VAULT_CA: string = "0x9C2cC0Dc682eCac3953caC9F61b3411F2c307E0A";
 export const POOL_ID: string = "";
-export const OPS_EOA: string = "";
+export const OPS_EOA: string = "0x0851C7428B51875A72CCF03C19a6C65c0fDe2404";
 export const LAUNCH_BLOCK = 0;
 
 export function tokenLive() {

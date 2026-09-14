@@ -63,9 +63,17 @@ function Kit() {
       <section className="mt-8 border-2 border-ink bg-surface p-4">
         <h2 className="text-2xl">Contract</h2>
         <p className="mt-2 text-sm text-muted">
-          <code className="font-mono text-ink">Cauldron.sol</code> is launch-ready. Remix: Solidity 0.8.24,
-          optimizer 200, EVM Cancun. Constructor: your EOA. Fee recipient on the LetsCash form is that EOA,
-          not the vault. After the token exists, point the hook at the vault.
+          Live on Robinhood Chain 4663.{" "}
+          <a
+            href="https://robinhoodchain.blockscout.com/address/0x9C2cC0Dc682eCac3953caC9F61b3411F2c307E0A"
+            className="font-mono text-ink underline"
+            target="_blank"
+            rel="noreferrer"
+          >
+            0x9C2c…7E0A
+          </a>
+          . Fee recipient on the LetsCash form is the ops EOA, not this vault. After the token exists, point
+          the hook at the vault.
         </p>
       </section>
 

@@ -7,6 +7,7 @@ Playable port of **Witch Cat** by [Satanimax](https://js13kgames.com/) (JS13K), 
 - Site: https://www.witchcat.lol
 - X: https://x.com/WitchcatLOL
 - Chain: Robinhood 4663
+- Cauldron: `0x9C2cC0Dc682eCac3953caC9F61b3411F2c307E0A`
 - Pad: letscash.fun
 
 ```

@@ -10,7 +10,6 @@ import {
   NAME,
   SITE_URL,
   TICKER,
-  tokenLive,
   VAULT_CA,
   X_HANDLE,
   X_URL,
@@ -47,10 +46,10 @@ function Token() {
         There is no keeper and no merkle drip.
       </p>
 
-      {tokenLive() && VAULT_CA ? (
+      {VAULT_CA ? (
         <p className="mt-4 font-mono text-sm">
           Cauldron{" "}
-          <a href={explorerAddress(VAULT_CA)} className="underline">
+          <a href={explorerAddress(VAULT_CA)} className="underline" target="_blank" rel="noreferrer">
             {shortCa(VAULT_CA)}
           </a>
         </p>

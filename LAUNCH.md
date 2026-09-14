@@ -12,6 +12,10 @@ Solidity 0.8.24 · optimizer 200 · EVM Cancun
 1. Deploy `contracts/Cauldron.sol` with `ops_` = your EOA.
 2. Note `VAULT_CA`. Paste into `src/lib/site.ts` as `VAULT_CA` + `OPS_EOA`.
 
+Done:
+- VAULT `0x9C2cC0Dc682eCac3953caC9F61b3411F2c307E0A`
+- OPS `0x0851C7428B51875A72CCF03C19a6C65c0fDe2404`
+
 ## LetsCash form
 
 ```
@@ -24,7 +28,7 @@ GitHub:      https://github.com/witchcatXYZ/witchcat
 Pair:        ETH
 Supply:      1B
 Tax:         3%
-Fee recipient: OPS EOA (not the vault yet)
+Fee recipient: 0x0851C7428B51875A72CCF03C19a6C65c0fDe2404 (ops EOA, not the vault)
 Image:       public/letscash.png
 ```
 
