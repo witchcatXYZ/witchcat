@@ -7,8 +7,8 @@ export const DISCLAIMER =
 
 export const SITE_URL = "https://www.witchcat.lol";
 export const GITHUB_URL = "https://github.com/witchcatXYZ/witchcat";
-export const X_URL = "https://x.com/WitchcatXYZ";
-export const X_HANDLE = "WitchcatXYZ";
+export const X_URL = "https://x.com/WitchcatLOL";
+export const X_HANDLE = "WitchcatLOL";
 
 export const CHAIN_ID = 4663;
 export const CHAIN_NAME = "Robinhood Chain";

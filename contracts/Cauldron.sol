@@ -31,7 +31,7 @@ contract Cauldron {
     string public constant TICKER = "WITCH";
     string public constant WEBSITE = "https://www.witchcat.lol";
     string public constant GITHUB = "https://github.com/witchcatXYZ/witchcat";
-    string public constant X = "https://x.com/WitchcatXYZ";
+    string public constant X = "https://x.com/WitchcatLOL";
     string public constant LINE = "Every swap feeds the cauldron.";
 
     error OnlyOps();

@@ -1,7 +1,7 @@
 # X copy — Witchcat
 
 Display name: Witchcat
-Handle: WitchcatXYZ
+Handle: WitchcatLOL
 Location: Robinhood Chain
 Website: https://www.witchcat.lol
 

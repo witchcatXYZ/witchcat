@@ -57,7 +57,7 @@ function Kit() {
       <p className="font-display text-sm uppercase tracking-[0.2em] text-band">Not in the nav</p>
       <h1 className="mt-1 text-4xl">X kit</h1>
       <p className="mt-3 text-muted">
-        Cauldron is ready. Handle is live. Paste https://x.com/WitchcatXYZ on the LetsCash form.
+        Cauldron is ready. Handle is live. Paste https://x.com/WitchcatLOL on the LetsCash form.
       </p>
 
       <section className="mt-8 border-2 border-ink bg-surface p-4">
