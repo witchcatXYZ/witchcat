@@ -1,4 +1,4 @@
-import { LINE, SITE_URL, SLOGAN, TICKER, X_HANDLE } from "@/lib/site";
+import { LINE, SITE_URL, SLOGAN, TICKER, TOKEN_CA, X_HANDLE } from "@/lib/site";
 
 export { X_HANDLE };
 export const X_DISPLAY_NAME = "Witchcat";
@@ -24,7 +24,7 @@ ${SLOGAN}
 ${LINE}
 
 ${SITE_URL}
-CA `;
+CA ${TOKEN_CA}`;
 
 export const X_SEASONS = `Winter freezes the water.
 Autumn fills the pits.

@@ -57,23 +57,38 @@ function Kit() {
       <p className="font-display text-sm uppercase tracking-[0.2em] text-band">Not in the nav</p>
       <h1 className="mt-1 text-4xl">X kit</h1>
       <p className="mt-3 text-muted">
-        Cauldron is ready. Handle is live. Paste https://x.com/WitchcatLOL on the LetsCash form.
+        Token and cauldron are live. Handle is @{X_HANDLE}.
       </p>
 
       <section className="mt-8 border-2 border-ink bg-surface p-4">
         <h2 className="text-2xl">Contract</h2>
-        <p className="mt-2 text-sm text-muted">
-          Live on Robinhood Chain 4663.{" "}
+        <p className="mt-2 font-mono text-sm break-all">
+          Token{" "}
           <a
-            href="https://robinhoodchain.blockscout.com/address/0x9C2cC0Dc682eCac3953caC9F61b3411F2c307E0A"
-            className="font-mono text-ink underline"
+            href="https://robinhoodchain.blockscout.com/address/0x51F7f4B4b1f9B4B28539eb10aF3FDE96dAe6B9cc"
+            className="underline"
             target="_blank"
             rel="noreferrer"
           >
-            0x9C2c…7E0A
+            0x51F7f4B4b1f9B4B28539eb10aF3FDE96dAe6B9cc
           </a>
-          . Fee recipient on the LetsCash form is the ops EOA, not this vault. After the token exists, point
-          the hook at the vault.
+        </p>
+        <p className="mt-2 font-mono text-sm break-all">
+          Cauldron{" "}
+          <a
+            href="https://robinhoodchain.blockscout.com/address/0x9C2cC0Dc682eCac3953caC9F61b3411F2c307E0A"
+            className="underline"
+            target="_blank"
+            rel="noreferrer"
+          >
+            0x9C2cC0Dc682eCac3953caC9F61b3411F2c307E0A
+          </a>
+        </p>
+        <p className="mt-2 text-sm text-muted">
+          Pool id{" "}
+          <code className="break-all text-ink">0x06fa11d038b900096e95ab401e5864238e93a52b0e67931f3ad5713698adade3</code>
+          . Next on Remix (ops): vault <code>setTokenCA</code>, <code>setPoolId</code>,{" "}
+          <code>setClaimer</code>, then hook <code>updateCreator(poolId, vault)</code>.
         </p>
       </section>
 
