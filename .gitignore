@@ -13,3 +13,5 @@ screenshots
 artifacts
 .project_id
 routeTree.gen.ts
+.env*
+.env.local
