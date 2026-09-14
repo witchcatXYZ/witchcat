@@ -5,6 +5,7 @@ import {
   X_DISPLAY_NAME,
   X_HANDLE,
   X_LIVE,
+  X_LIVE_2,
   X_LOCATION,
   X_PIN,
   X_REPLY,
@@ -198,8 +199,9 @@ function Kit() {
 
       <div className="mt-8 space-y-3">
         <h2 className="text-2xl">Posts</h2>
-        <Block title="Pin" text={X_PIN} hint="Attach post.png. No CA until it exists." />
-        <Block title="Live" text={X_LIVE} hint="Paste the token CA on the last line. Attach post.png." />
+        <Block title="Pin" text={X_PIN} hint="Attach post.png." />
+        <Block title="Live 1" text={X_LIVE} hint="Announcement. Attach post.png." />
+        <Block title="Live 2" text={X_LIVE_2} hint="System post. Different from 1. Attach banner.png." />
         <Block title="Seasons" text={X_SEASONS} hint="Attach banner.png or article.png." />
         <Block title="Reply" text={X_REPLY} hint="Under the pin if someone asks whose game." />
       </div>

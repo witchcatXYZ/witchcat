@@ -26,6 +26,15 @@ ${LINE}
 ${SITE_URL}
 CA ${TOKEN_CA}`;
 
+export const X_LIVE_2 = `The game is free. The cauldron is not.
+
+3% on every swap.
+2.7% streams to the vault.
+Anyone may harvest. ETH stays.
+
+Play: ${SITE_URL}/play
+CA ${TOKEN_CA}`;
+
 export const X_SEASONS = `Winter freezes the water.
 Autumn fills the pits.
 Summer grows the vines.
