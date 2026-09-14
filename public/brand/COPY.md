@@ -13,7 +13,7 @@ Images in /x:
 
 - logo.png — 400×400 profile (witch, use this)
 - logo-cover.png — 400×400 alt (full cover)
-- banner.png — 1500×500 header
+- banner.png — 1500×500 header (Play / Seasons / Cauldron, site type)
 - post.png — 1500×1000 pin / live still
 - article.png — 1500×600
 

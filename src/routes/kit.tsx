@@ -72,7 +72,7 @@ function Kit() {
       <section className="mt-8">
         <h2 className="text-2xl">Profile mock</h2>
         <div className="mt-3 overflow-hidden border-2 border-ink bg-bg">
-          <img src="/x/banner.png" alt="X banner" className="pixelated w-full object-cover" />
+          <img src="/x/banner.png" alt="X banner" className="w-full object-cover" />
           <div className="relative px-4 pb-4 pt-8">
             <img
               src="/x/logo.png"
@@ -151,7 +151,7 @@ function Kit() {
         </ul>
         <div className="mt-4 border-2 border-ink bg-surface p-3">
           <p className="font-display text-sm">Banner · 1500×500</p>
-          <img src="/x/banner.png" alt="X banner" className="pixelated mt-3 w-full border-2 border-ink" />
+          <img src="/x/banner.png" alt="X banner" className="mt-3 w-full border-2 border-ink" />
           <a href="/x/banner.png" download="witchcat-x-banner.png" className="mt-3 inline-block font-display text-sm underline">
             Download banner
           </a>
