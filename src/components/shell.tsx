@@ -1,5 +1,5 @@
 import { Link, useRouterState } from "@tanstack/react-router";
-import { NAME, ATTRIBUTION, TICKER } from "@/lib/site";
+import { NAME, ATTRIBUTION, TICKER, X_HANDLE, X_URL, GITHUB_URL } from "@/lib/site";
 import type { ReactNode } from "react";
 
 const NAV = [
@@ -59,6 +59,15 @@ export function Shell({ children }: { children: ReactNode }) {
       {play ? null : (
         <footer className="border-t-2 border-ink bg-bg-deep px-4 py-6 text-center text-sm text-muted">
           <p className="mx-auto max-w-2xl">{ATTRIBUTION}</p>
+          <p className="mt-2">
+            <a href={X_URL} target="_blank" rel="noreferrer" className="underline">
+              @{X_HANDLE}
+            </a>
+            {" · "}
+            <a href={GITHUB_URL} target="_blank" rel="noreferrer" className="underline">
+              GitHub
+            </a>
+          </p>
         </footer>
       )}
     </div>

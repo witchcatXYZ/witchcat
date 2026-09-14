@@ -19,7 +19,7 @@ Name:        Witchcat
 Ticker:      WITCH
 Description: Find the cats. Change the seasons. Every swap feeds the cauldron.
 Website:     https://www.witchcat.lol
-X:           (paste when you have it)
+X:           https://x.com/WitchcatXYZ
 GitHub:      https://github.com/witchcatXYZ/witchcat
 Pair:        ETH
 Supply:      1B
@@ -29,6 +29,8 @@ Image:       public/letscash.png
 ```
 
 Do not put the vault as fee recipient on the form.
+
+X kit: `public/x/` (logo 400, banner 1500×500, post, bio). Preview at `/kit`.
 
 ## After launch
 

@@ -12,6 +12,8 @@ import {
   TICKER,
   tokenLive,
   VAULT_CA,
+  X_HANDLE,
+  X_URL,
   explorerAddress,
   shortCa,
 } from "@/lib/site";
@@ -60,6 +62,12 @@ function Token() {
       <ul className="mt-2 space-y-1 text-muted">
         <li>
           Site · {SITE_URL}
+        </li>
+        <li>
+          X ·{" "}
+          <a href={X_URL} target="_blank" rel="noreferrer" className="underline">
+            @{X_HANDLE}
+          </a>
         </li>
         <li>
           GitHub ·{" "}

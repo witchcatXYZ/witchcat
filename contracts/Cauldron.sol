@@ -31,6 +31,7 @@ contract Cauldron {
     string public constant TICKER = "WITCH";
     string public constant WEBSITE = "https://www.witchcat.lol";
     string public constant GITHUB = "https://github.com/witchcatXYZ/witchcat";
+    string public constant X = "https://x.com/WitchcatXYZ";
     string public constant LINE = "Every swap feeds the cauldron.";
 
     error OnlyOps();
@@ -100,8 +101,14 @@ contract Cauldron {
     function socials()
         external
         pure
-        returns (string memory website, string memory github, string memory line, string memory name_)
+        returns (
+            string memory website,
+            string memory github,
+            string memory x_,
+            string memory line,
+            string memory name_
+        )
     {
-        return (WEBSITE, GITHUB, LINE, NAME);
+        return (WEBSITE, GITHUB, X, LINE, NAME);
     }
 }

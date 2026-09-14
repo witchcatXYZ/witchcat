@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { CaStrip } from "@/components/ca-strip";
-import { LINE, NAME, SEASONS, SLOGAN, TICKER, tokenLive, letscashTokenUrl } from "@/lib/site";
+import { LINE, NAME, SEASONS, SLOGAN, TICKER, X_HANDLE, X_URL, tokenLive, letscashTokenUrl } from "@/lib/site";
 
 export const Route = createFileRoute("/")({ component: Home });
 
@@ -26,6 +26,14 @@ function Home() {
             >
               How
             </Link>
+            <a
+              href={X_URL}
+              target="_blank"
+              rel="noreferrer"
+              className="border-2 border-ink bg-surface px-5 py-2 font-display text-lg text-ink no-underline hover:bg-ink hover:text-bg"
+            >
+              @{X_HANDLE}
+            </a>
             {tokenLive() ? (
               <a
                 href={letscashTokenUrl()}

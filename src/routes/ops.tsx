@@ -1,4 +1,4 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import { VaultDesk } from "@/components/vault-desk";
 
 export const Route = createFileRoute("/ops")({ component: Ops });
@@ -9,6 +9,13 @@ function Ops() {
       <h1 className="text-3xl">Cauldron desk</h1>
       <p className="mt-2 text-sm text-muted">
         Not in the nav. Harvest anyone. Pull ops. If this looks like an airdrop, close the tab.
+      </p>
+      <p className="mt-3 text-sm">
+        <Link to="/kit" className="underline">
+          X kit
+        </Link>
+        {" · "}
+        logo, banner, bio, posts.
       </p>
       <div className="mt-6">
         <VaultDesk />
